@@ -1,0 +1,26 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/gnanp/Documents/cursor/mtube/insert_dylib/build/Release/insert_dylib'
+relocations:
+  - { offset: 0x2ED1C, size: 0x8, addend: 0x0, symName: _fbzero, symObjAddr: 0x0, symBinAddr: 0x100000648, symSize: 0x6C }
+  - { offset: 0x2ED29, size: 0x8, addend: 0x0, symName: _fbzero, symObjAddr: 0x0, symBinAddr: 0x100000648, symSize: 0x6C }
+  - { offset: 0x2ED4A, size: 0x8, addend: 0x0, symName: _fbzero.zeros, symObjAddr: 0x8CD4, symBinAddr: 0x1000081E0, symSize: 0x0 }
+  - { offset: 0x2EE0D, size: 0x8, addend: 0x0, symName: _fmemmove, symObjAddr: 0x6C, symBinAddr: 0x1000006B4, symSize: 0xB0 }
+  - { offset: 0x2EE2E, size: 0x8, addend: 0x0, symName: _fmemmove.buf, symObjAddr: 0x8ED4, symBinAddr: 0x1000083E0, symSize: 0x0 }
+  - { offset: 0x2EF3E, size: 0x8, addend: 0x0, symName: _inplace_flag, symObjAddr: 0x90D4, symBinAddr: 0x1000085E0, symSize: 0x0 }
+  - { offset: 0x2EF5B, size: 0x8, addend: 0x0, symName: _weak_flag, symObjAddr: 0x90D8, symBinAddr: 0x1000085E4, symSize: 0x0 }
+  - { offset: 0x2EF71, size: 0x8, addend: 0x0, symName: _overwrite_flag, symObjAddr: 0x90DC, symBinAddr: 0x1000085E8, symSize: 0x0 }
+  - { offset: 0x2EF87, size: 0x8, addend: 0x0, symName: _codesig_flag, symObjAddr: 0x90E0, symBinAddr: 0x1000085EC, symSize: 0x0 }
+  - { offset: 0x2EF9D, size: 0x8, addend: 0x0, symName: _yes_flag, symObjAddr: 0x90E4, symBinAddr: 0x1000085F0, symSize: 0x0 }
+  - { offset: 0x2EFB9, size: 0x8, addend: 0x0, symName: _long_options, symObjAddr: 0x1DB8, symBinAddr: 0x100008100, symSize: 0x0 }
+  - { offset: 0x2F07B, size: 0x8, addend: 0x0, symName: _usage, symObjAddr: 0x11C, symBinAddr: 0x100000764, symSize: 0x68 }
+  - { offset: 0x2F0D7, size: 0x8, addend: 0x0, symName: _ask, symObjAddr: 0x184, symBinAddr: 0x1000007CC, symSize: 0xEC }
+  - { offset: 0x2F12D, size: 0x8, addend: 0x0, symName: _ask, symObjAddr: 0x184, symBinAddr: 0x1000007CC, symSize: 0xEC }
+  - { offset: 0x2F2A4, size: 0x8, addend: 0x0, symName: _fpeek, symObjAddr: 0x270, symBinAddr: 0x1000008B8, symSize: 0x70 }
+  - { offset: 0x2F397, size: 0x8, addend: 0x0, symName: _read_load_command, symObjAddr: 0x2E0, symBinAddr: 0x100000928, symSize: 0x48 }
+  - { offset: 0x2F47B, size: 0x8, addend: 0x0, symName: _check_load_commands, symObjAddr: 0x328, symBinAddr: 0x100000970, symSize: 0x9B8 }
+  - { offset: 0x2FE1A, size: 0x8, addend: 0x0, symName: _insert_dylib, symObjAddr: 0xCE0, symBinAddr: 0x100001328, symSize: 0x40C }
+  - { offset: 0x30222, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x10EC, symBinAddr: 0x100001734, symSize: 0x78C }
+  - { offset: 0x30926, size: 0x8, addend: 0x0, symName: _main.cold.1, symObjAddr: 0x1878, symBinAddr: 0x100001EC0, symSize: 0x14 }
+  - { offset: 0x30A30, size: 0x8, addend: 0x0, symName: _main.cold.1, symObjAddr: 0x1878, symBinAddr: 0x100001EC0, symSize: 0x14 }
+...
